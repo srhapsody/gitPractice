@@ -15,11 +15,15 @@ int main(){
     char op;
 
     switch(op){
-        case '+' : addition(a,b);
-        case '-' : subtraction(a,b);
-        case '*' : multiplication(a,b);
-        case '/' : division(a,b);
+        case '+' : addition(a,b);break;
+        case '-' : subtraction(a,b);break;
+        case '*' : multiplication(a,b);break;
+        case '/' : division(a,b);break;
     }
 
     return 0;
+}
+
+void multiplication(int a, int b) {
+	cout << a * b << endl;
 }
