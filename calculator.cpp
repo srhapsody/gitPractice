@@ -27,3 +27,7 @@ int main(){
 void multiplication(int a, int b) {
 	cout << a * b << endl;
 }
+
+void addition(int a, int b){
+    cout<<a+b<<endl;
+}
