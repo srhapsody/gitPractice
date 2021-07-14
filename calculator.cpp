@@ -35,3 +35,7 @@ void addition(int a, int b){
 void division(int a, int b){
     cout<< a/b <<endl;
 }
+
+void subtraction(int a, int b){
+    cout<<a-b<<endl;
+}
